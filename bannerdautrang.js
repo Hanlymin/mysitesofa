@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'sofagiare-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='https://lh5.googleusercontent.com/-D3WcHeACZqU/V5nz_jNR3JI/AAAAAAAAAeo/w9AhRlhTEgYUWnk68L01ONFQY9WG3d7BACL0B/w851-h315-no/13310349_1796361567277944_6978980368427963395_n.jpg' width='500px'/><br/>Sofa khuyến mãi giá rẻ nhất</a>. Đạt ngay sản phẩm <h2><a class='close-sofagiare-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='http://sofagiarehcm.com/san-pham/sofa-gia-re-hong-gr48.html' width='500px'/><br/>Sofa khuyến mãi giá rẻ nhất</a>. Đạt ngay sản phẩm <h2><a class='close-sofagiare-modal'>X</a></h2>");
 			$('#myModal').sofagiare($('#myModal').data());
 		}
 });
