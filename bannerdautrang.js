@@ -115,9 +115,10 @@ $(window).load(function() {
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
 			$(divpopup).attr('id', 'myModal');
-			$(divpopup).attr('class', 'sofagiare-modal');
+			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='http://sofagiarehcm.com/uploads/products/sofa%20gia%20re/sofa_gia_re_hcm.jpg' width='500px'/><br/>Sofa khuyến mãi giá rẻ nhất</a>. Đạt ngay sản phẩm <h2><a class='close-sofagiare-modal'>X</a></h2>");
-			$('#myModal').sofagiare($('#myModal').data());
+			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='http://sofagiarehcm.com/uploads/products/sofa%20gia%20re/sofa_gia_re_hcm.jpg' width='500px'/><br/>Bán sofa giá rẻ</a>. Sofa giá rẻ nhất tại tphcm. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$('#myModal').linhnguyen($('#myModal').data());
+		
 		}
 });
