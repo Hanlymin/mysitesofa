@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='http://sofagiarehcm.com/san-pham/sofa-phong-khach-k20-1.html' width='500px'/><br/>Bán sofa giá rẻ</a>. Sofa giá rẻ nhất tại tphcm. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://sofagiarehcm.com/sofa-gia-re.html' target='_blank'><img src='http://sofagiarehcm.com/uploads/products/PHONG%20KHACH/13255961_1290003834347438_1979380507362570376_n.jpg' width='500px'/><br/>Bán sofa giá rẻ</a>. Sofa giá rẻ nhất tại tphcm. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		
 		}
